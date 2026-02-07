@@ -1,0 +1,13 @@
+{
+  "outputDirectory": "frontend/.next",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://irajfatima-phase2-backend.hf.space/api/:path*"
+    },
+    {
+      "source": "/auth/:path*",
+      "destination": "https://irajfatima-phase2-backend.hf.space/auth/:path*"
+    }
+  ]
+}
