@@ -20,7 +20,7 @@ export default function SignupPage() {
 
     // Make real API call to backend for registration
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/auth/register`, {
+      const response = await fetch('/auth/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
